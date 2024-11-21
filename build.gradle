@@ -16,7 +16,9 @@ java {
 repositories {
 	mavenCentral()
 }
-
+tasks.named('bootJar') {
+	mainClass.set("com.micro.auth.App")
+}
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
