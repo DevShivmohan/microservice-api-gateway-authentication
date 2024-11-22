@@ -1,5 +1,7 @@
 package com.micro.gateway.config;
 
+import com.micro.common.model.ErrorResponse;
+import com.micro.common.model.factory.ObjectMapperFactor;
 import com.micro.gateway.properties.RouterProperties;
 import lombok.AllArgsConstructor;
 import org.reactivestreams.Publisher;
@@ -10,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.core.io.buffer.DataBufferFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.http.server.reactive.ServerHttpResponseDecorator;
@@ -18,6 +21,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.nio.charset.StandardCharsets;
+import java.util.Objects;
 
 @Configuration
 @AllArgsConstructor
@@ -36,13 +40,15 @@ public class GatewayRouterConfiguration {
                 routes.route(routeId,
                         p -> p.path(routingInfo.getPath())
                                 .filters(f -> f
-                                        .filter((exchange, chain) -> {
-                                            if (exchange.getRequest().getHeaders().getContentType() != null &&
-                                                    exchange.getRequest().getHeaders().getContentType().toString().startsWith(MediaType.APPLICATION_OCTET_STREAM_VALUE)) {
-                                                return chain.filter(exchange);
-                                            }
-                                            return cacheResponseBody(exchange, chain);
-                                        }))
+                                        .filter(this::handleUnavailableService)
+//                                        .filter((exchange, chain) -> {
+//                                            if (exchange.getRequest().getHeaders().getContentType() != null &&
+//                                                    exchange.getRequest().getHeaders().getContentType().toString().startsWith(MediaType.APPLICATION_OCTET_STREAM_VALUE)) {
+//                                                return chain.filter(exchange);
+//                                            }
+//                                            return cacheResponseBody(exchange, chain);
+//                                        }))
+                                        .modifyResponseBody(String.class, String.class, this::handleErrorResponse))
                                 .uri(routingInfo.getEndpoint())));
 
         return routes.build();
@@ -73,5 +79,22 @@ public class GatewayRouterConfiguration {
         };
 
         return chain.filter(exchange.mutate().response(decoratedResponse).build());
+    }
+
+    private Mono<Void> handleUnavailableService(ServerWebExchange exchange, GatewayFilterChain chain) {
+        return chain.filter(exchange).onErrorResume(ex -> {
+            ServerHttpResponse response = exchange.getResponse();
+            response.setStatusCode(HttpStatus.SERVICE_UNAVAILABLE);
+            response.getHeaders().setContentType(MediaType.APPLICATION_JSON);
+            DataBuffer buffer = response.bufferFactory().wrap(Objects.requireNonNull(ObjectMapperFactor.writeValuesAsString(ErrorResponse.builder().message("Service is currently unavailable. Please try again later.").build())).getBytes(StandardCharsets.UTF_8));
+            return response.writeWith(Mono.just(buffer));
+        });
+    }
+
+    private Mono<String> handleErrorResponse(ServerWebExchange exchange, String originalBody) {
+        if (exchange.getResponse().getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
+            return Mono.just(Objects.requireNonNull(ObjectMapperFactor.writeValuesAsString(ErrorResponse.builder().message("Service is currently unavailable. Please try again later.").build())));
+        }
+        return Mono.just(originalBody);
     }
 }

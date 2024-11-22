@@ -2,4 +2,5 @@ rootProject.name = 'micro-service'
 include 'auth-service'
 include 'admin-portal'
 include 'api-gateway'
+include 'common-service'
 

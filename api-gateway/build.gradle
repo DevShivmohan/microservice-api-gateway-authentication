@@ -19,6 +19,7 @@ ext {
     set('springCloudVersion', "2023.0.3")
 }
 dependencies {
+    implementation project(':common-service')
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
