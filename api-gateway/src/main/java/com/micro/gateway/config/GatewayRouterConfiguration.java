@@ -41,14 +41,14 @@ public class GatewayRouterConfiguration {
                         p -> p.path(routingInfo.getPath())
                                 .filters(f -> f
                                         .filter(this::handleUnavailableService)
-//                                        .filter((exchange, chain) -> {
-//                                            if (exchange.getRequest().getHeaders().getContentType() != null &&
-//                                                    exchange.getRequest().getHeaders().getContentType().toString().startsWith(MediaType.APPLICATION_OCTET_STREAM_VALUE)) {
-//                                                return chain.filter(exchange);
-//                                            }
-//                                            return cacheResponseBody(exchange, chain);
-//                                        }))
-                                        .modifyResponseBody(String.class, String.class, this::handleErrorResponse))
+                                        .filter((exchange, chain) -> {
+                                            if (exchange.getRequest().getHeaders().getContentType() != null &&
+                                                    exchange.getRequest().getHeaders().getContentType().toString().startsWith(MediaType.APPLICATION_OCTET_STREAM_VALUE)) {
+                                                return chain.filter(exchange);
+                                            }
+                                            return cacheResponseBody(exchange, chain);
+                                        }))
+//                                        .modifyResponseBody(String.class, String.class, this::handleErrorResponse))
                                 .uri(routingInfo.getEndpoint())));
 
         return routes.build();
