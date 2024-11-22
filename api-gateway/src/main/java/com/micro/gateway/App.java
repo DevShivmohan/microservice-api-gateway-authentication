@@ -1,4 +1,4 @@
-package com.micro.auth;
+package com.micro.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

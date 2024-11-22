@@ -2,3 +2,67 @@ server:
   port: 8080
   servlet:
     context-path: /gateway/v1
+gateway:
+  route:
+    portal-service:
+      endpoint: http://localhost:8081
+      path: /portal/**
+      id: portal-service
+    auth-service:
+      endpoint: http://localhost:8082
+      path: /auth/**
+      id: auth-service
+  security:
+    expire-milliseconds: 43200000
+    refresh-token-expire-milliseconds: 604800000
+  skip-auth-enabled: true # change this to enable authentication
+#  cors-config:
+#    allowedOrigins:
+#      - "*"
+
+#authentication-url: http://localhost:35000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  main:
+#    allow-bean-definition-overriding: true
+    web-application-type: reactive
+  application:
+    name: micro-gateway
+  cloud:
+    gateway:
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        corsConfigurations:
+          '[/**]':
+            #            allowedOrigins:
+            #              - "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+              - PATCH
+            allowedHeaders:
+              - Content-Type
+              - Cookie
+              - X-MICRO-TENANT-ID
+              - X-MICRO-USER-ID
+              - X-MICRO-USER-ROLE
+              - X-MICRO-TOKEN
+            allowCredentials: true
+            maxAge: 3600
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  file:
+    name: ./logs/logs.log
