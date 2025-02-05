@@ -49,7 +49,8 @@ public class GatewayRouterConfiguration {
                                             return cacheResponseBody(exchange, chain);
                                         }))
 //                                        .modifyResponseBody(String.class, String.class, this::handleErrorResponse))
-                                .uri(routingInfo.getEndpoint())));
+                                .uri("lb://" + routingInfo.getEndpoint()))); // via service name after registering with eureka
+//                                .uri(routingInfo.getEndpoint())));
 
         return routes.build();
     }

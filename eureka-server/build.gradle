@@ -1,12 +1,17 @@
 plugins {
+    id 'java'
     id 'org.springframework.boot' version '3.3.6'
     id 'io.spring.dependency-management' version '1.1.6'
-    id 'java'
 }
-def mapstructVersion = '1.5.2.Final'
 
 group = 'com.micro.services'
 version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
 
 repositories {
     mavenCentral()
@@ -16,18 +21,12 @@ ext {
     set('springCloudVersion', "2024.0.0")
 }
 
-tasks.named('bootJar') {
-    mainClass.set("com.micro.auth.App")
-}
-
 dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
-    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 dependencyManagement {
@@ -36,6 +35,6 @@ dependencyManagement {
     }
 }
 
-test {
+tasks.named('test') {
     useJUnitPlatform()
 }

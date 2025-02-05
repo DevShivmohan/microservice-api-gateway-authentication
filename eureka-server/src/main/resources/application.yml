@@ -1,0 +1,23 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /eureka/v1
+
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: localhost
+
+  server:
+    enable-self-preservation: false  # Disable for development
+    eviction-interval-timer-in-ms: 60000  # 60 seconds
+
+  client:
+    register-with-eureka: false  # Eureka Server does not register itself
+    fetch-registry: false  # Eureka Server does not fetch other instances

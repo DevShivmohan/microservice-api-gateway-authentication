@@ -1,4 +1,17 @@
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
+  application:
+    name: auth-service
 server:
   port: 8082
   servlet:
     context-path: /auth/v1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/v1/eureka/
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,966 @@
+2025-02-05 21:30:16,289 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 321361 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 21:30:16,292 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 21:30:16,774 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=b1d6b208-cc5a-3a50-928a-762f074e2e4e
+2025-02-05 21:30:16,916 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 21:30:16,924 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 21:30:16,924 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 21:30:17,292 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 21:30:17,475 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 21:30:17,572 INFO  [main] com.micro.gateway.App : Started App in 1.613 seconds (process running for 1.865)
+2025-02-05 21:34:40,830 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 322550 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 21:34:40,833 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 21:34:41,486 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=b1d6b208-cc5a-3a50-928a-762f074e2e4e
+2025-02-05 21:34:41,644 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 21:34:41,658 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 21:34:41,658 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 21:34:42,225 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 21:34:42,747 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 21:34:43,957 INFO  [main] com.micro.gateway.App : Started App in 3.581 seconds (process running for 3.863)
+2025-02-05 21:53:03,491 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 325674 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 21:53:03,493 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 21:53:04,483 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=7ac61852-addc-3c77-95ba-2504e027d557
+2025-02-05 21:53:04,683 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 21:53:04,692 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 21:53:04,692 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 21:53:04,811 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeLocator' defined in class path resource [com/micro/gateway/config/GatewayRouterConfiguration.class]: Failed to instantiate [org.springframework.cloud.gateway.route.RouteLocator]: Factory method 'routeLocator' threw exception with message: No qualifying bean of type 'org.springframework.cloud.gateway.filter.factory.SpringCloudCircuitBreakerFilterFactory' available: There needs to be a circuit breaker implementation on the classpath that supports reactive APIs.
+2025-02-05 21:53:04,818 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05 21:53:04,829 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Method routeLocator in com.micro.gateway.config.GatewayRouterConfiguration required a bean of type 'org.springframework.cloud.gateway.filter.factory.SpringCloudCircuitBreakerFilterFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.gateway.filter.factory.SpringCloudCircuitBreakerFilterFactory' in your configuration.
+
+2025-02-05 22:07:24,334 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 328697 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:07:24,336 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:07:25,124 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:07:25,271 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:07:25,279 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:07:25,279 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:07:25,860 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:07:25,861 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:07:26,282 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:07:27,070 INFO  [main] com.micro.gateway.App : Started App in 3.246 seconds (process running for 3.449)
+2025-02-05 22:10:08,289 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 329439 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:10:08,292 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:10:09,118 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:10:09,276 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:10:09,285 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:10:09,285 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:10:10,037 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:10:10,038 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:10:11,220 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:10:11,284 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:10:12,287 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:10:13,291 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:10:13,314 INFO  [main] com.micro.gateway.App : Started App in 5.37 seconds (process running for 5.584)
+2025-02-05 22:11:19,909 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 329828 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:11:19,912 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:11:20,776 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:11:21,016 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:11:21,030 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:11:21,030 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:11:21,780 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:11:21,780 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:11:21,780 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:11:21,780 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:11:21,781 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:11:22,189 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:11:22,458 INFO  [main] com.micro.gateway.App : Started App in 2.957 seconds (process running for 3.173)
+2025-02-05 22:13:14,680 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 330269 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:13:14,681 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:13:15,632 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:13:15,780 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:13:15,787 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:13:15,788 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:13:16,996 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:13:17,328 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:13:17,329 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:13:18,592 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:13:18,653 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:13:19,657 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:13:20,660 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:13:20,686 INFO  [main] com.micro.gateway.App : Started App in 7.322 seconds (process running for 7.548)
+2025-02-05 22:13:40,600 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-service-circuit-breaker' recorded an exception as failure:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:13:40,602 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:13:40.602476535+05:30[Asia/Kolkata]: CircuitBreaker 'portal-service-circuit-breaker' recorded an error: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081'. Elapsed time: 145 ms
+2025-02-05 22:15:11,431 DEBUG [parallel-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-service-circuit-breaker' recorded an exception as failure:
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 1000ms in 'circuitBreaker' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:296)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:281)
+	at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:420)
+	at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:270)
+	at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:285)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:15:11,432 DEBUG [parallel-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:15:11.432427591+05:30[Asia/Kolkata]: CircuitBreaker 'portal-service-circuit-breaker' recorded an error: 'java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 1000ms in 'circuitBreaker' (and no fallback has been configured)'. Elapsed time: 1000 ms
+2025-02-05 22:15:53,992 DEBUG [reactor-http-epoll-4] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-service-circuit-breaker' recorded an exception as failure:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:15:53,993 DEBUG [reactor-http-epoll-4] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:15:53.993082147+05:30[Asia/Kolkata]: CircuitBreaker 'portal-service-circuit-breaker' recorded an error: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081'. Elapsed time: 2 ms
+2025-02-05 22:19:54,129 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 331560 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:19:54,130 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:19:54,911 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:19:55,075 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:19:55,083 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:19:55,084 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:19:55,695 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:19:55,931 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:19:56,007 INFO  [main] com.micro.gateway.App : Started App in 2.241 seconds (process running for 2.435)
+2025-02-05 22:20:57,145 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-service-circuit-breaker' succeeded:
+2025-02-05 22:20:57,146 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event SUCCESS published: 2025-02-05T22:20:57.146402786+05:30[Asia/Kolkata]: CircuitBreaker 'portal-service-circuit-breaker' recorded a successful call. Elapsed time: 212 ms
+2025-02-05 22:21:24,499 DEBUG [reactor-http-epoll-3] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-service-circuit-breaker' recorded an exception as failure:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:21:24,503 DEBUG [reactor-http-epoll-3] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:21:24.503584507+05:30[Asia/Kolkata]: CircuitBreaker 'portal-service-circuit-breaker' recorded an error: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081'. Elapsed time: 6 ms
+2025-02-05 22:22:43,137 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 332545 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:22:43,138 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:22:43,948 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:22:44,204 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:22:44,213 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:22:44,213 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:22:44,909 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:22:44,909 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:22:44,909 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:22:44,910 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:22:45,257 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:22:45,328 INFO  [main] com.micro.gateway.App : Started App in 2.534 seconds (process running for 2.757)
+2025-02-05 22:27:53,870 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 333663 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:27:53,873 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:27:54,726 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:27:54,948 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:27:54,955 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:27:54,956 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:27:55,525 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:27:55,526 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:27:55,527 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:27:55,527 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:27:56,069 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:27:56,324 INFO  [main] com.micro.gateway.App : Started App in 3.02 seconds (process running for 3.246)
+2025-02-05 22:28:10,031 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-servicecircuit-breaker' recorded an exception as failure:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:28:10,035 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:28:10.035171116+05:30[Asia/Kolkata]: CircuitBreaker 'portal-servicecircuit-breaker' recorded an error: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081'. Elapsed time: 195 ms
+2025-02-05 22:29:07,783 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 334096 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:29:07,785 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:29:08,439 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:29:08,596 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:29:08,605 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:29:08,605 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:29:09,261 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:29:09,262 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:29:09,605 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:29:09,679 INFO  [main] com.micro.gateway.App : Started App in 2.227 seconds (process running for 2.433)
+2025-02-05 22:29:19,890 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : CircuitBreaker 'portal-servicecircuit-breaker-shiv' recorded an exception as failure:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-05 22:29:19,893 DEBUG [reactor-http-epoll-2] io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine : Event ERROR published: 2025-02-05T22:29:19.892673995+05:30[Asia/Kolkata]: CircuitBreaker 'portal-servicecircuit-breaker-shiv' recorded an error: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:8081'. Elapsed time: 118 ms
+2025-02-05 22:29:52,898 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 334429 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:29:52,901 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:29:53,737 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=51c8dc1e-cf68-39e6-97c0-262e2910a0cb
+2025-02-05 22:29:53,891 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:29:53,899 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:29:53,899 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:29:55,221 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:29:55,489 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:29:55,490 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:29:55,490 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:29:55,490 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:29:55,490 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:29:56,771 INFO  [main] org.springframework.cloud.commons.util.InetUtils : Cannot determine local hostname
+2025-02-05 22:29:56,817 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:29:57,610 INFO  [main] com.micro.gateway.App : Started App in 5.469 seconds (process running for 5.657)
+2025-02-05 22:43:45,296 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 336354 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:43:45,298 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:43:46,104 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:43:46,225 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start reactive web server
+2025-02-05 22:43:46,234 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05 22:43:46,243 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2025-02-05 22:43:56,874 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 336588 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 22:43:56,876 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 22:43:57,551 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=0b99bc47-0c99-3488-ac0e-6ae0a257d501
+2025-02-05 22:43:57,694 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 22:43:57,701 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 22:43:57,701 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 22:43:58,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 22:43:58,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 22:43:58,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 22:43:58,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 22:43:58,710 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 22:43:59,126 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 22:43:59,791 INFO  [main] com.micro.gateway.App : Started App in 3.237 seconds (process running for 3.465)
+2025-02-05 23:16:46,935 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 345135 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:16:46,937 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:16:47,772 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:16:48,008 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:16:48,021 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:16:48,021 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:16:48,677 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:16:48,894 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:16:48,944 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:16:48,987 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:16:49,009 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:16:49,013 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:16:49,021 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:16:49,328 WARN  [main] com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient : Request execution failure with status code 404; retrying on another server if available
+2025-02-05 23:16:49,329 INFO  [main] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:410)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:245)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:240)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:324)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:376)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:285)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:472)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:257)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.micro.gateway.App.main(App.java:11)
+
+2025-02-05 23:16:49,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Initial registry fetch from primary servers failed
+2025-02-05 23:16:49,330 WARN  [main] com.netflix.discovery.DiscoveryClient : Using default backup registry implementation which does not do anything.
+2025-02-05 23:16:49,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Initial registry fetch from backup servers failed
+2025-02-05 23:16:49,331 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:16:49,332 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:16:49,333 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738777609333 with initial instances count: 0
+2025-02-05 23:16:49,335 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:16:49,336 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738777609336, current=UP, previous=STARTING]
+2025-02-05 23:16:49,337 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:16:49,370 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:16:49,373 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:16:49,376 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 404
+2025-02-05 23:16:49,409 INFO  [main] com.micro.gateway.App : Started App in 2.788 seconds (process running for 3.134)
+2025-02-05 23:17:19,331 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:17:19,332 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:17:19,333 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:17:19,333 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:17:19,333 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:17:19,333 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:17:19,333 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:17:19,351 WARN  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient : Request execution failure with status code 404; retrying on another server if available
+2025-02-05 23:17:19,351 INFO  [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-02-05 23:17:19,354 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - Re-registering apps/MICRO-GATEWAY
+2025-02-05 23:17:19,354 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:17:19,357 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 404
+2025-02-05 23:17:19,377 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:17:19,380 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 404
+2025-02-05 23:17:36,749 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 345454 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:17:36,751 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:17:37,674 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:17:37,939 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:17:37,953 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:17:37,953 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:17:38,663 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:17:38,664 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:17:38,665 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:17:38,665 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:17:38,665 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:17:38,665 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:17:39,044 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:17:39,124 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:17:39,173 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:17:39,196 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:17:39,200 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:17:39,209 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:17:39,210 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:17:39,568 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:17:39,571 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:17:39,573 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:17:39,576 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738777659575 with initial instances count: 1
+2025-02-05 23:17:39,579 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:17:39,580 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738777659580, current=UP, previous=STARTING]
+2025-02-05 23:17:39,582 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:17:39,622 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:17:39,626 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:17:39,628 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:17:39,714 INFO  [main] com.micro.gateway.App : Started App in 3.298 seconds (process running for 3.737)
+2025-02-05 23:19:23,124 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 345891 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:19:23,126 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:19:24,208 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:19:24,435 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:19:24,444 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:19:24,444 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:19:24,541 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeLocator' defined in class path resource [com/micro/gateway/config/GatewayRouterConfiguration.class]: Failed to instantiate [org.springframework.cloud.gateway.route.RouteLocator]: Factory method 'routeLocator' threw exception with message: The parameter [auth-service] format is incorrect, scheme can not be empty
+2025-02-05 23:19:24,551 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05 23:19:24,562 ERROR [main] org.springframework.boot.SpringApplication : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeLocator' defined in class path resource [com/micro/gateway/config/GatewayRouterConfiguration.class]: Failed to instantiate [org.springframework.cloud.gateway.route.RouteLocator]: Factory method 'routeLocator' threw exception with message: The parameter [auth-service] format is incorrect, scheme can not be empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.micro.gateway.App.main(App.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.gateway.route.RouteLocator]: Factory method 'routeLocator' threw exception with message: The parameter [auth-service] format is incorrect, scheme can not be empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: The parameter [auth-service] format is incorrect, scheme can not be empty
+	at org.springframework.util.Assert.hasText(Assert.java:240)
+	at org.springframework.cloud.gateway.route.Route$AbstractBuilder.uri(Route.java:189)
+	at org.springframework.cloud.gateway.route.Route$AbstractBuilder.uri(Route.java:183)
+	at org.springframework.cloud.gateway.route.builder.UriSpec.uri(UriSpec.java:65)
+	at com.micro.gateway.config.GatewayRouterConfiguration.lambda$routeLocator$4(GatewayRouterConfiguration.java:71)
+	at org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder$Builder.route(RouteLocatorBuilder.java:70)
+	at com.micro.gateway.config.GatewayRouterConfiguration.lambda$routeLocator$5(GatewayRouterConfiguration.java:58)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at com.micro.gateway.config.GatewayRouterConfiguration.routeLocator(GatewayRouterConfiguration.java:57)
+	at com.micro.gateway.config.GatewayRouterConfiguration$$SpringCGLIB$$0.CGLIB$routeLocator$1(<generated>)
+	at com.micro.gateway.config.GatewayRouterConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348)
+	at com.micro.gateway.config.GatewayRouterConfiguration$$SpringCGLIB$$0.routeLocator(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 20 common frames omitted
+2025-02-05 23:21:10,045 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 346362 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:21:10,047 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:21:10,860 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:21:11,010 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:21:11,018 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:21:11,018 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:21:11,551 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:21:11,739 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:21:11,773 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:21:11,797 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:21:11,809 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:21:11,811 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:21:11,816 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:21:12,038 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:21:12,040 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:21:12,042 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:21:12,044 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738777872043 with initial instances count: 2
+2025-02-05 23:21:12,047 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:21:12,047 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738777872047, current=UP, previous=STARTING]
+2025-02-05 23:21:12,049 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:21:12,087 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:21:12,087 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:21:12,088 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:21:12,140 INFO  [main] com.micro.gateway.App : Started App in 2.615 seconds (process running for 2.994)
+2025-02-05 23:21:52,029 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 346683 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:21:52,031 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:21:52,795 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:21:52,951 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:21:52,963 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:21:52,963 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:21:54,096 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:21:54,097 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:21:54,098 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:21:54,098 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:21:54,380 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:21:54,536 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:21:54,581 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:21:54,605 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:21:54,609 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:21:54,617 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:21:54,898 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:21:54,900 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:21:54,902 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:21:54,904 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738777914903 with initial instances count: 2
+2025-02-05 23:21:54,908 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:21:54,908 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738777914908, current=UP, previous=STARTING]
+2025-02-05 23:21:54,910 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:21:54,950 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:21:54,952 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:21:54,954 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:21:54,997 INFO  [main] com.micro.gateway.App : Started App in 3.296 seconds (process running for 3.645)
+2025-02-05 23:21:59,071 WARN  [http-nio-8080-exec-1] org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer : No servers available for service: auth-service1
+2025-02-05 23:22:07,493 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 346957 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:22:07,495 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:22:08,388 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:22:08,636 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:22:08,646 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:22:08,646 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:22:09,318 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:22:09,319 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:22:09,319 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:22:09,319 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:22:09,800 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:22:10,075 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:22:10,114 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:22:10,133 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:22:10,137 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:22:10,144 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:22:10,144 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:22:10,145 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:22:10,145 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:22:10,145 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:22:10,145 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:22:10,145 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:22:10,463 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:22:10,465 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:22:10,466 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:22:10,468 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738777930467 with initial instances count: 2
+2025-02-05 23:22:10,471 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:22:10,472 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738777930472, current=UP, previous=STARTING]
+2025-02-05 23:22:10,473 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:22:10,513 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:22:10,515 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:22:10,517 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:22:11,334 INFO  [main] com.micro.gateway.App : Started App in 4.432 seconds (process running for 4.788)
+2025-02-05 23:26:36,041 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 348428 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:26:36,043 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:26:36,820 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:26:36,980 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:26:36,988 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:26:36,988 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:26:37,709 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:26:38,074 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:26:38,289 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:26:38,311 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:26:38,322 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:26:38,325 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:26:38,330 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:26:38,543 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:26:38,544 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:26:38,545 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:26:38,546 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738778198546 with initial instances count: 3
+2025-02-05 23:26:38,548 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:26:38,549 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738778198549, current=UP, previous=STARTING]
+2025-02-05 23:26:38,550 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:26:38,569 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application MICRO-GATEWAY with eureka with status DOWN
+2025-02-05 23:26:38,569 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738778198569, current=DOWN, previous=UP]
+2025-02-05 23:26:38,570 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-05 23:26:38,572 INFO  [main] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2025-02-05 23:26:38,587 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:26:38,587 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:26:38,593 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:26:38,593 INFO  [main] com.netflix.discovery.DiscoveryClient : Unregistering ...
+2025-02-05 23:26:38,598 INFO  [main] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - deregister  status: 200
+2025-02-05 23:26:38,599 INFO  [main] com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2025-02-05 23:26:38,608 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05 23:26:38,618 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-05 23:26:40,571 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - Re-registering apps/MICRO-GATEWAY
+2025-02-05 23:26:40,572 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:26:40,577 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:27:09,524 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 348704 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:27:09,526 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:27:10,146 INFO  [AsyncResolver-bootstrap-executor-%d] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:27:10,601 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:27:10,834 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:27:10,848 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:27:10,848 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:27:11,647 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:27:11,648 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:27:11,648 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:27:11,648 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:27:11,957 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:27:12,049 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:27:12,073 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:27:12,085 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:27:12,087 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:27:12,097 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:27:12,296 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:27:12,298 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:27:12,299 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:27:12,300 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738778232300 with initial instances count: 3
+2025-02-05 23:27:12,303 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:27:12,303 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738778232303, current=UP, previous=STARTING]
+2025-02-05 23:27:12,305 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:27:12,329 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application MICRO-GATEWAY with eureka with status DOWN
+2025-02-05 23:27:12,329 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738778232329, current=DOWN, previous=UP]
+2025-02-05 23:27:12,330 WARN  [main] org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-05 23:27:12,332 INFO  [main] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2025-02-05 23:27:12,345 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:27:12,345 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:27:12,351 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:27:12,352 INFO  [main] com.netflix.discovery.DiscoveryClient : Unregistering ...
+2025-02-05 23:27:12,358 INFO  [main] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - deregister  status: 200
+2025-02-05 23:27:12,359 INFO  [main] com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2025-02-05 23:27:12,379 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05 23:27:12,395 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-05 23:27:40,593 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - Re-registering apps/MICRO-GATEWAY
+2025-02-05 23:27:40,593 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:27:40,597 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:28:00,253 INFO  [main] com.micro.gateway.App : Starting App using Java 17.0.10 with PID 349256 (/home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service/api-gateway/build/classes/java/main started by admin1 in /home/admin1/shiv-deck/projects/microservices-gateway-example/micro-service)
+2025-02-05 23:28:00,255 INFO  [main] com.micro.gateway.App : No active profile set, falling back to 1 default profile: "default"
+2025-02-05 23:28:01,095 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=3433d97d-faa1-34b8-959d-8f1eb019bef5
+2025-02-05 23:28:01,339 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2025-02-05 23:28:01,349 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-02-05 23:28:01,349 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-05 23:28:02,121 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [After]
+2025-02-05 23:28:02,121 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Before]
+2025-02-05 23:28:02,121 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Between]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Cookie]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Header]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Host]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Method]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Path]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Query]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [ReadBody]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [Weight]
+2025-02-05 23:28:02,122 INFO  [main] org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-05 23:28:02,482 INFO  [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-05 23:28:02,542 WARN  [main] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-05 23:28:02,585 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2025-02-05 23:28:02,608 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2025-02-05 23:28:02,612 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2025-02-05 23:28:02,620 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2025-02-05 23:28:03,000 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2025-02-05 23:28:03,003 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2025-02-05 23:28:03,005 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-05 23:28:03,007 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1738778283006 with initial instances count: 3
+2025-02-05 23:28:03,011 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application MICRO-GATEWAY with eureka with status UP
+2025-02-05 23:28:03,011 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1738778283011, current=UP, previous=STARTING]
+2025-02-05 23:28:03,013 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080: registering service...
+2025-02-05 23:28:03,054 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient : DiscoveryClient_MICRO-GATEWAY/hp-5cd3500hqj:micro-gateway:8080 - registration status: 204
+2025-02-05 23:28:03,057 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http)
+2025-02-05 23:28:03,058 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8080
+2025-02-05 23:28:03,118 INFO  [main] com.micro.gateway.App : Started App in 3.165 seconds (process running for 3.529)

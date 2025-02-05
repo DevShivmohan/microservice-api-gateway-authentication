@@ -1,15 +1,17 @@
 server:
   port: 8080
-  servlet:
-    context-path: /gateway/v1
+#  servlet:
+#    context-path: /gateway/v1
 gateway:
   route:
     portal-service:
-      endpoint: http://localhost:8081
+#      endpoint: http://localhost:8081
+      endpoint: portal-service
       path: /portal/**
       id: portal-service
     auth-service:
-      endpoint: http://localhost:8082
+#      endpoint: http://localhost:8082
+      endpoint: auth-service
       path: /auth/**
       id: auth-service
   security:
@@ -25,7 +27,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include:
+          - "*"
 
 spring:
   main:
@@ -34,6 +37,8 @@ spring:
   application:
     name: micro-gateway
   cloud:
+    compatibility-verifier:
+      enabled: false
     gateway:
       globalcors:
         add-to-simple-url-handler-mapping: true
@@ -60,9 +65,18 @@ spring:
 
 logging:
   level:
+    io.github.resilience4j.circuitbreaker: DEBUG
+    org.springframework.cloud.gateway.filter.factory: DEBUG
     root: INFO
   pattern:
     console: "%d %-5level %logger : %msg%n"
     file: "%d %-5level [%thread] %logger : %msg%n"
   file:
     name: ./logs/logs.log
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/v1/eureka/
+  instance:
+    prefer-ip-address: true
